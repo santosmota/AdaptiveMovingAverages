@@ -1,7 +1,7 @@
 # AdaptiveMovingAverages
 Adaptive Moving Averages for the Application of the CPT in Systems with Variable Frequency
 
-This repository contains the MATLAB model (Simulink + Library + Parameters) and the simulation results as CSV files used in the article "On Adaptive Moving Average Algorithms for the Application of the Conservative Power Theory in Systems with Variable Frequency"
+This repository contains the MATLAB model (Simulink + Library + Parameters) and the simulation results as CSV files used in the article "On Adaptive Moving Average Algorithms for the Application of the Conservative Power Theory in Systems with Variable Frequency" submitted to the Journal Energies (https://www.mdpi.com/journal/energies) on January 2021.
 
 Files:
   RL_DB_Scenarios.slx
@@ -26,5 +26,8 @@ Simulation results (folders)
 Simulation result CSV structure
   There are not titles, data is organized in columns, separated by commas
   CKT.txt
-    time, frequency [Hz], n, nceiling, nr, nfloor, vsource, isource,  
+    time [s], frequency [Hz], n, nceiling, nr, nfloor, vsource [V], isource [A], iresistor[A], iinductor[A], idiode[A]
+    
+  CPT_LVTD.txt, CPT_CVTD.txt, CPT_WAMA, CPT_HAMA
+    active power [W], active current [A], reactive powe [Var], reactive energy [?], reactive current [A], void current [A], integral of Vsource, bias of the integral of vsource, unbiased integral of vsource, source voltage times source current, unbiased integral of the source voltage times source current
       
