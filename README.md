@@ -23,7 +23,7 @@ Matlab script with the parameters and hardcoded choices for the different simula
     StepPos1025_DB: positive step disturbance, applied at t=0.1025s, DB scenario
     
 ### Simulation result CSV structure
-  There are not titles, data is organized in columns, separated by commas.
+  There are not titles, data is organized in columns which are separated by commas.
   
 #### CKT.txt
     time [s], frequency [Hz], n, nceiling, nr, nfloor, vsource [V], isource [A], iresistor[A], iinductor[A], idiode[A]
